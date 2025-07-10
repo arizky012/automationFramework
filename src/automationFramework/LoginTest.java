@@ -27,7 +27,8 @@ public class LoginTest {
             WebElement loginButton = driver.findElement(By.id("submit"));
             loginButton.click();
 
-            Thread.sleep(2000); // tunggu 2 detik
+            // tunggu 2 detik
+            Thread.sleep(2000); 
 
             // Cek hasil login
             String successText = driver.findElement(By.tagName("h1")).getText();
